@@ -6,15 +6,13 @@ const Container = styled.div<{$direction: string}>`
     flex-direction: ${props => props.$direction};
     margin: 0;
     padding: 0;
-    width: 100%;
 `
 
 const Pane = styled.div<{$weight: number}>`
     flex: ${props => props.$weight};
     margin: 0;
     padding: 0;
-    display: block;
-    width: auto;
+    width: 15em;
 `
 
 export const Flex = ({

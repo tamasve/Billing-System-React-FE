@@ -1,5 +1,9 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  margin: 0;
   padding: 0;
+}
+
+.experiments {
+    background-color: #b2e1e2;
 }
