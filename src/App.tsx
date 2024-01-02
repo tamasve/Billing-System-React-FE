@@ -3,12 +3,13 @@ import { ColumnFlex, RowFlex } from './components/Flexes'
 import { Menu } from './components/Menu'
 import styled from 'styled-components';
 import { Title } from './components/Title';
+import { DataTable } from './components/DataTable';
 
 
 const Main = styled.div`
     width: 80vw;
     min-heigth: 80vh;
-    display: block;
+    // display: block;
 `
 
 
@@ -16,7 +17,7 @@ function App() {
 
     return (
         <Main>
-            <RowFlex weights={[1, 4]}>
+            {/* <RowFlex weights={[1, 4]}>
                 <Menu />
                 <ColumnFlex weights={[1, 3]}>
                     <Title text="Sells Dashboard" />
@@ -24,7 +25,8 @@ function App() {
                         <p>hello</p>
                     </Main>
                 </ColumnFlex>
-            </RowFlex>
+            </RowFlex> */}
+            <DataTable />
         </Main>
     )
 }
