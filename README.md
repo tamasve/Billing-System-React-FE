@@ -1,5 +1,7 @@
 # Front-End of a Billing System
 
+## currently under construction...
+
 ## used technologies:
 * React design patterns
 * Styled components
